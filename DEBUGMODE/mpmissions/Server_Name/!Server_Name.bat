@@ -20,7 +20,7 @@ SET "PROFILES=DEBUGMODE\mpmissions\Server_Name\profiles"
 SET "LOCALHOST=127.0.0.1:2302"
 
 @REM Path to the DayZDiag_x64.exe from this file 
-cd ../
+cd ../../../
 
 @REM Start Game
 start DayZDiag_x64.exe -mod=%MODS% -profiles=!ClientDiagLogs -connect=%LOCALHOST% -battleye=0 -filepatching=1
