@@ -28,10 +28,6 @@ This is a folder that will contain all the server files for Vanilla Servers. It 
 ## How to install
 Download or clone this repository to your DayZ Root Folder. Commonly located in C:\Program Files (x86)\Steam\steamapps\common\DayZ
 
-📁 DayZ Root Folder .
-
-|--📁 DEBUGMODE
-
 After that you will can edit the server configs in each example to fit your needs. Duplicate each example to make more servers.
 
 On a personal note I usuall add the shortcuts to the each server.bat to my desktop then use the my icons to make them look nice. You can create your own if you like or use the ones I have made. 
