@@ -16,7 +16,7 @@ A set of icons, and the current mission files for a Experimental server and a Va
 
 NOTE: Current Mission Files can be updated by downloading DayZ Server and DayZ Experimental Server via Steam. But I will keep this repos files up to date with the latest version for all default examples. 
 
-### DZNC_Icons  
+### DEBUG Icons  
 A group of optional icons you can use to make the links to your .bat files look a little nicer
 
 ### expmissions
