@@ -1,14 +1,5 @@
 void main()
 {
-	//INIT WEATHER BEFORE ECONOMY INIT------------------------
-	Weather weather = g_Game.GetWeather();
-
-	weather.MissionWeather(false);    // false = use weather controller from Weather.c
-
-	weather.GetOvercast().Set( Math.RandomFloatInclusive(0.4, 0.6), 1, 0);
-	weather.GetRain().Set( 0, 0, 1);
-	weather.GetFog().Set( Math.RandomFloatInclusive(0.05, 0.1), 1, 0);
-
 	//INIT ECONOMY--------------------------------------
 	Hive ce = CreateHive();
 	if ( ce )
@@ -76,8 +67,6 @@ class CustomMission: MissionServer
 			itemEnt = itemClothing.GetInventory().CreateInInventory( "BandageDressing" );
 			if ( Class.CastTo( itemBs, itemEnt ) )
 				itemBs.SetQuantity( 2 );
-
-			SetRandomHealth( itemEnt );
 
 			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
 			int rndIndex = Math.RandomInt( 0, 4 );
